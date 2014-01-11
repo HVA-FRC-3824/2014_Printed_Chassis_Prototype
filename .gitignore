@@ -4,3 +4,6 @@
 *.jar
 *.war
 *.ear
+/2014_Printed_Chassis_Prototype/nbproject/private/
+/2014_Printed_Chassis_Prototype/build/
+/2014PrintedChassisPrototype/nbproject/private/
