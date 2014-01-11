@@ -42,5 +42,10 @@ public class Drivetrain extends Subsystem {
         // Set the default command for a subsystem here.
         //setDefaultCommand(new MySpecialCommand());
     }
+    
+    public void HolonomicDrive(Joystick joystick)
+    {
+        holonomic.mecanumDrive_Polar(joystick.getMagnitude(), joystick.getDirectionDegrees(), joystick.getTwist());
+    }
 }
 
